@@ -1,29 +1,3 @@
-/*--------------
-All Contents
---------------*/
-
-/*-----------------
-1. Reset.css
-2. Helper Classes
-3. Main and Hero Section Stylings
-4. Services Styling
-5. Features Split
-6. Feature with BG
-7. Feature Big
-8. Testimonial Stling
-9. Pricing Section
-10. Call To Action Subscribe
-11. Download Section
-12. Back to top
-------------------*/
-
-/*----- 1. Reset.css -----*/
-
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html,
 body,
 div,
@@ -216,6 +190,9 @@ body {
   background: #000000;
   margin: 0 0 20px 0;
 }
+.page-scroll {
+  color: #ffffff;
+}
 
 .spacer {
   width: 100%;
@@ -334,19 +311,19 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #444444;
+  color: #ffffff;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5;
   transition: all 0.5s;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #000000;
+  color: #33cc33;
 }
 
 .navbar-default .navbar-nav > .active > a {
   background: transparent;
-  color: #ffffff;
+  color: #33cc33;
 }
 
 .navbar-default .navbar-nav > .active > a:hover {
@@ -450,13 +427,13 @@ body {
   }
 
   .navbar-default.past-main .navbar-nav > li > a {
-    color: #606060;
+    color: #ffffff;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
   }
 
   .navbar-default.past-main .navbar-nav > li > a:hover {
-    color: #111111;
+    color: #33cc33;
   }
 
   .navbar-default.past-main .navbar-nav > .active > a {
@@ -640,7 +617,7 @@ body {
 /* ----- About Section Styling Starts ----- */
 
 .services-section {
-  background: #ffffff;
+  background: #f3f3f3;
 }
 
 .services-content {
@@ -661,7 +638,7 @@ body {
 .services-content p {
   font-family: Poppins;
   font-size: 14px;
-  color: #444444;
+  color: black;
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 1.4;
@@ -714,7 +691,7 @@ body {
 .services .services-description p {
   font-family: Poppins;
   font-size: 13px;
-  color: #444444;
+  color: black;
   font-weight: 300;
   letter-spacing: 1px;
   line-height: 1.5;
@@ -1322,7 +1299,8 @@ body {
 /* ------- Footer Section Styling Starts ------- */
 
 .footer {
-  background-color: #f3f3f3;
+  background-color: black;
+  color: white;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -1332,6 +1310,11 @@ body {
 
 .footer img {
   vertical-align: text-top;
+}
+.personal-icons {
+  width: 20px;
+  height: 20px;
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(166deg) brightness(105%) contrast(104%) !important;
 }
 
 .footer-menu ul {
@@ -1348,14 +1331,14 @@ body {
 }
 
 .footer-menu li a {
-  color: #707570;
+  color: black;
   text-decoration: none;
 }
 
 .footer-text p {
   font-family: Roboto;
   font-size: 14px;
-  color: #707570;
+  color: #ffffff;
   font-weight: 300;
   line-height: 2;
   letter-spacing: 1px;
@@ -1365,7 +1348,7 @@ body {
 /* ------- Footer Section Styling Starts ------- */
 
 .no-color {
-  background: #ffffff;
+  background: #f3f3f3;
 }
 
 /*---------------------------------------------------
