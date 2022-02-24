@@ -311,7 +311,7 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #ffffff;
+  color: #66af83;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5;
   transition: all 0.5s;
@@ -378,7 +378,7 @@ body {
   }
 
   .navbar-default .navbar-nav > li > a {
-    color: #222222;
+    color: #66af83;
     margin-top: 10px;
   }
 
@@ -427,7 +427,7 @@ body {
   }
 
   .navbar-default.past-main .navbar-nav > li > a {
-    color: #ffffff;
+    color: #66af83;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
   }
@@ -552,9 +552,9 @@ body {
   color: #ffffff;
 }
 
-.app-hero {
+/* .app-hero {
   background: #f3f3f3;
-}
+} */
 
 .app-hero-content {
   overflow: hidden;
@@ -616,9 +616,9 @@ body {
 
 /* ----- About Section Styling Starts ----- */
 
-.services-section {
+/* .services-section {
   background: #f3f3f3;
-}
+} */
 
 .services-content {
   padding-top: 100px;
@@ -792,7 +792,7 @@ body {
 
 .features-section .f-left {
   flex: 1 0 50%;
-  background: #f3f3f3;
+  /* background: #f3f3f3; */
 }
 
 .features-section .f-right {
@@ -1106,7 +1106,7 @@ body {
   height: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
-  background: #f3f3f3;
+  /* background: #f3f3f3; */
 }
 
 .pricing-intro {
@@ -1292,21 +1292,6 @@ body {
 
 /* ----- CTA Section Styling Ends ----- */
 
-/* ----- Client Sectiion Styling ----- */
-
-.client-section {
-  background-color: #f3f3f3;
-}
-
-.clients ul li {
-  display: inline;
-}
-
-.clients .single img {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-
 /* ------- Footer Section Styling Starts ------- */
 
 .footer {
@@ -1324,13 +1309,12 @@ body {
 .personal-icons {
   width: 20px;
   height: 20px;
-  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(166deg) brightness(105%) contrast(104%) !important;
 }
 
 .footer-icons {
   width: 30px;
   height: 30px;
-  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(166deg) brightness(105%) contrast(104%) !important;
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(166deg) brightness(105%) contrast(104%);
 }
 .back-top-icon {
   filter: invert(12%) sepia(62%) saturate(4672%) hue-rotate(261deg) brightness(113%) contrast(138%);
@@ -1364,131 +1348,7 @@ body {
   margin-top: 10px;
 }
 
-/* ------- Footer Section Styling Starts ------- */
-
-.no-color {
-  background: #f3f3f3;
-}
-
-/*---------------------------------------------------
------------ Contact Page Styling Starts -------------
----------------------------------------------------*/
-
-.contact-section {
-  width: 100%;
-  height: 100%;
-  padding: 150px 0 50px 0;
-  background: #fff;
-}
-
-.contact-section h1 {
-  font-family: Poppins;
-  font-size: 28px;
-  font-weight: 600;
-  color: #111111;
-  line-height: 1.3;
-  margin-bottom: 20px;
-}
-
-.contact-section p {
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 300;
-  color: #111111;
-  line-height: 1.4;
-}
-
-/* ------------ Contact Form Styling --------*/
-
-.contact-form {
-  padding-top: 50px;
-}
-
-label {
-  display: block;
-  font-family: Poppins;
-  font-size: 14px;
-  font-weight: 500;
-  color: #333333;
-  text-align: left;
-}
-
-.form-control {
-  border: 0px;
-  border-radius: 0px;
-  margin-top: 10px;
-  background: transparent;
-  margin-bottom: 40px;
-  border-bottom: 1px solid #999999;
-  -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
-  box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.form-control:focus {
-  border-color: #5924ec;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-}
-
-.form-control::-webkit-input-placeholder {
-  font-family: Roboto;
-  font-size: 13px;
-  color: #999999;
-}
-.form-control:-moz-placeholder {
-  font-family: Roboto;
-  font-size: 13px;
-  color: #999999;
-}
-.form-control::-moz-placeholder {
-  font-family: Roboto;
-  font-size: 13px;
-  color: #999999;
-}
-.form-control:-ms-input-placeholder {
-  font-family: Quicksand;
-  font-size: 13px;
-  color: #999999;
-}
-
-.text-muted {
-  font-family: Roboto;
-  font-size: 13px;
-  color: #222;
-}
-
-.text-muted strong {
-  color: #ff3333;
-}
-
-.btn-send {
-  font-family: Poppins;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin-bottom: 20px;
-  border-radius: 0px;
-  color: #ffffff;
-  background: #5924ec;
-  border-color: #5924ec;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.btn-send:hover,
-.btn-send:focus {
-  color: #ffffff;
-  background: #000000;
-  border-color: #111111;
-  outline: none !important;
-}
-
-/* -------- Contact Section Styling Ends ---- */
+/* ------- Footer Section Styling Ends ------- */
 
 /* -------------------------------------------------------
 ----------- Bact-to-Top Styling Starts Here --------------
@@ -1535,7 +1395,7 @@ label {
 }
 
 /*---------------------------------------------------
------------ Contact Page Styling Ends -------------
+----------- Bact-to-Top Styling Ends Here -----------
 ---------------------------------------------------*/
 
 /*----------------------------------------------------
@@ -1554,6 +1414,11 @@ label {
   }
   #bottom {
     height: 25px;
+  }
+  .personal-icons {
+    width: 20px;
+    height: 20px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(166deg) brightness(105%) contrast(104%);
   }
 
   .custom-padding {
