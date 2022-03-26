@@ -1,1 +1,4 @@
-<?php include_once(index.html”); DirectoryIndex home.html index.html index.htm index.php?>
+<?php 
+  include_once(index.html”);
+  DirectoryIndex index.html  index.php
+  ?>
