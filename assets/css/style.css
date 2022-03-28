@@ -680,7 +680,7 @@ body {
 .services .services-description h1 {
   font-family: Poppins;
   font-size: 18px;
-  color: #111111;
+  color: #5924ec;
   font-weight: 600;
   letter-spacing: 0;
   line-height: 1.4;
@@ -1052,9 +1052,6 @@ body {
   margin-top: 5em;
 }
 
-.app-info {
-}
-
 .app-info h3 {
   font-family: Poppins;
   font-size: 34px;
@@ -1116,7 +1113,7 @@ body {
 .pricing-intro h1 {
   font-family: Poppins;
   font-size: 28px;
-  color: #111111;
+  color: #33cc33;
   font-weight: 600;
   line-height: 1.4;
 }
@@ -1180,7 +1177,7 @@ body {
   font-family: Poppins;
   font-size: 18px;
   font-weight: 600;
-  color: #505050;
+  color: #5924ec;
   margin-bottom: 20px;
 }
 
@@ -1498,6 +1495,7 @@ body {
   }
 
   .services-content h1 {
+    color: #33cc33;
     font-size: 28px;
     line-height: 1.4;
   }
